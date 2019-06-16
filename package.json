@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/potapovDim/csview/issues"
   },
-  "homepage": "https://github.com/potapovDim/csview#readme"
+  "homepage": "https://github.com/potapovDim/csview#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
 }
