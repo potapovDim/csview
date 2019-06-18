@@ -1,6 +1,8 @@
 const {expect} = require('chai')
 const fs = require('fs')
-const {createTempFile} = require('../lib/sync')
+const {
+  createTempFile, parseCsvFromString
+} = require('../lib/sync')
 
 describe('Sync ', () => {
   it('create temp file defaults and remove', () => {
@@ -19,4 +21,6 @@ describe('Sync ', () => {
       expect(error.message).to.include('Required argument type is string, got: undefined')
     }
   })
+
+  it('parseCsvFromString')
 })
