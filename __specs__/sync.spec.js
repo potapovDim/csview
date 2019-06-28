@@ -1,8 +1,6 @@
 const {expect} = require('chai')
 const fs = require('fs')
-const {
-  createTempFile, parseCsvFromString
-} = require('../lib/sync')
+const {createTempFile, parseCsvFromString} = require('../lib')
 
 describe('Sync ', () => {
 
