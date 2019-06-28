@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha \"__specs__/**/*.spec.js\" --timeout 10000 "
+    "test": "mocha \"__specs__/**/*.spec.js\" --timeout 10000"
   },
   "repository": {
     "type": "git",
