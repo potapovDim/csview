@@ -13,3 +13,12 @@ _stream.on('data', (data) => {
   // console.log('____________________________')
   // console.log('____________________________ end')
 })
+
+_stream.on('end', () => {
+  console.log('end')
+})
+
+_stream.on('close', (data) => {
+  console.log('close', data)
+})
+
